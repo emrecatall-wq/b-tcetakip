@@ -56,7 +56,7 @@ class _PermissionScreenState extends State<PermissionScreen> with WidgetsBinding
   }
 
   Future<void> _askNotif() async {
-    await NotificationsListener.requestPermission();
+    await NotificationsListener.openPermissionSettings();
   }
 
   @override
